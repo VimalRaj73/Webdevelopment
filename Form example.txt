@@ -1,0 +1,30 @@
+<form>
+    <h2>Students Bio Data</h2>
+    <input type="text" name="email"/> Username<br/>
+    <input type="password" name="password"/> Password<br/>
+    <hr/>
+    <h5>Gender</h5>
+    <input type="radio" name="gender" value="male"/> Male
+    <input type="radio" name="gender" value="female"/> Female 
+    <input type="radio" name="gender" values="others"/> Others <br/>
+    <hr/>
+    <h5>Hobbies</h5>
+    <input type="checkbox" name="hobbies" values="watchingtv"/> Watching TV
+    <input type="checkbox" name="hobbies" values="readingbooks"/> Reading Books
+    <input type="checkbox" name="hobbies" value="listeningtosongs"/> Listening to songs
+    <input type="text" name="others"/> Others<br/>
+    <h5>Location</h5>
+    <select name="location">
+        <option value="chennai">Chennai</option>
+        <option value="puducherry">Puducherry</option>
+        <option value="neyveli">Neyveli</option>
+        <option value="madurai">Madurai</option>
+        <option value="tuticorin">Tuticorin</option>
+        <option value="thirunelveli">Thirunelveli</option>
+    </select><br/>
+    <h5>Bio</h5>
+    <textarea rows="8" cols="70">
+        About you...
+    </textarea><br/>
+    <input type="submit" name="submit" value="submit"/>
+</form>

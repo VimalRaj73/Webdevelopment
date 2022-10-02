@@ -1,0 +1,25 @@
+<table border="1" cellspacing="0" cellpadding="7" width="600" height="300">
+    <tr>
+        <th>Name</th>
+        <th>Standard</th>
+        <th>Section</th>
+    </tr>
+    <tr>
+        <td>Ashwin</td>
+        <td>8th</td>
+        <td>"A"</td>
+    </tr>
+    <tr>
+        <td>Harish</td>
+        <td>10th</td>
+        <td>"D"</td>
+    </tr>
+    <tr>
+        <td>Vishal</td>
+        <td>12th</td>
+        <td>"C"</td>
+    </tr>
+    <tr>
+    <td colspan= "3">These Students have full attendance in current semester.</td>
+    </tr>
+</table>
