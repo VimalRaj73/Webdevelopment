@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+.titlebox {
+    border: solid 1px black;
+    height: 40px;
+    width: 100%;
+    display:flex; 
+}
+.imgbox {
+    border: solid 1px black;
+    height: 300px;
+    width: 100%;
+}
+.sidetab {
+    border: solid 1px rgb(0, 0, 0);
+    height:600px;
+    width: 15%;
+    display:inline-block;
+}
+.mainbox {
+    border: solid 1px black;
+    height:600px;
+    width:100%;
+    font-size: 0px;
+}
+.contentbox {
+    border: solid 1px black;
+    height:600px;
+    width:85%;
+    display:inline-block;
+}
+.box {
+    border: solid 1px black;
+    height:50%;
+    width:1005;
+    display:flex;
+}
+.smallbox {
+    border: solid 1px grey;
+    height: 100%;
+    width:10%;
+    flex-direction: row;
+}
+.bigbox {
+    border: solid 1px red;
+    height: 100%;
+    width: 25%;
+    flex-direction: row;
+}
